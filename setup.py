@@ -1,11 +1,11 @@
 import sys
 from setuptools import setup, find_packages
 
-requirements = ['grako>=3.9.3']
+requirements = ['tatsu>=5.8.3']
 
 setup(
     name = "expressions",
-    version = "0.2.4",
+    version = "0.2.5",
 
     packages = find_packages(exclude=["*.tests", "*.tests.*", "tests.*", "tests"]),
     package_data = {

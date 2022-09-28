@@ -6,7 +6,7 @@ from __future__ import print_function
 from typing import List, Any, Union, Optional, Set, Tuple
 
 from .grammar import ExpressionParser, ExpressionSemantics
-from grako.exceptions import FailedSemantics
+from tatsu.exceptions import FailedSemantics
 from . import compat
 
 __all__ = [
